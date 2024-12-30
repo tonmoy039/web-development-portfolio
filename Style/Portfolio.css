@@ -1,5 +1,7 @@
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .text-primary{
     color: #FD6E0A
@@ -7,6 +9,7 @@ nav{
 
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li {
     display: flex;
@@ -18,12 +21,21 @@ nav a{
 }
 
 .button-primary{
-    /* position: absolute; */
-width: 150px;
-height: 30px;
-left: 1000px;
-top: 30px;
-color: #FD6E0A
+    border-radius: 5px;
+    border: 0px;
+    background: #FD6E0A;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    width: 150px;
+    height: 60px;
+    left: 1220px;
+    top: 50px;
+    padding: 15px 35px;
+    
+
+
 }
 
 body{
