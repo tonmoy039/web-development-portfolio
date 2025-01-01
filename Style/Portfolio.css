@@ -2,6 +2,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .text-primary{
     color: #FD6E0A
@@ -33,9 +34,7 @@ nav a{
     left: 1220px;
     top: 50px;
     padding: 15px 35px;
-    
-
-
+    align-items: center;
 }
 
 body{
@@ -61,4 +60,38 @@ font-size: 45px;
 
 color: #181818;
 
+}
+
+/* header related style */
+.header{
+background-color: #FFF8F3;
+/* position: absolute; */
+width: 150px;
+height: 64px;
+left: 1220px;
+top: 50px;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    /* Group 11 */
+
+position: absolute;
+width: 585px;
+height: 356px;
+left: 30px;
+top: 297px;
+align-items: center;
+
+
+   
+}
+.profile-picture{
+position: absolute;
+width: 584px;
+height: 676px;
+left: 978px;
+top: 0px;
+align-items: center;
 }
